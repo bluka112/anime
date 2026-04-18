@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "title": "Attack on Titan",
+    "episodes": 87,
+    "genre": "Action",
+    "image": "https://placehold.co/400x560/2d1b69/e879f9?text=Attack+on+Titan"
+  },
+  {
+    "id": 2,
+    "title": "Demon Slayer",
+    "episodes": 44,
+    "genre": "Action",
+    "image": "https://placehold.co/400x560/2d1b69/e879f9?text=Demon+Slayer"
+  },
+  {
+    "id": 3,
+    "title": "Jujutsu Kaisen",
+    "episodes": 47,
+    "genre": "Action",
+    "image": "https://placehold.co/400x560/2d1b69/e879f9?text=Jujutsu+Kaisen"
+  },
+  {
+    "id": 4,
+    "title": "Your Lie in April",
+    "episodes": 22,
+    "genre": "Romance",
+    "image": "https://placehold.co/400x560/4a1942/f9a8d4?text=Your+Lie+in+April"
+  },
+  {
+    "id": 5,
+    "title": "Toradora!",
+    "episodes": 25,
+    "genre": "Romance",
+    "image": "https://placehold.co/400x560/4a1942/f9a8d4?text=Toradora!"
+  },
+  {
+    "id": 6,
+    "title": "Horimiya",
+    "episodes": 13,
+    "genre": "Romance",
+    "image": "https://placehold.co/400x560/4a1942/f9a8d4?text=Horimiya"
+  },
+  {
+    "id": 7,
+    "title": "One Punch Man",
+    "episodes": 24,
+    "genre": "Comedy",
+    "image": "https://placehold.co/400x560/1b2d69/a5b4fc?text=One+Punch+Man"
+  },
+  {
+    "id": 8,
+    "title": "Spy x Family",
+    "episodes": 37,
+    "genre": "Comedy",
+    "image": "https://placehold.co/400x560/1b2d69/a5b4fc?text=Spy+x+Family"
+  },
+  {
+    "id": 9,
+    "title": "Gintama",
+    "episodes": 367,
+    "genre": "Comedy",
+    "image": "https://placehold.co/400x560/1b2d69/a5b4fc?text=Gintama"
+  },
+  {
+    "id": 10,
+    "title": "Konosuba",
+    "episodes": 20,
+    "genre": "Comedy",
+    "image": "https://placehold.co/400x560/1b2d69/a5b4fc?text=Konosuba"
+  },
+  {
+    "id": 11,
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "episodes": 64,
+    "genre": "Fantasy",
+    "image": "https://placehold.co/400x560/1b4a2d/86efac?text=FMA+Brotherhood"
+  },
+  {
+    "id": 12,
+    "title": "Mushoku Tensei",
+    "episodes": 23,
+    "genre": "Fantasy",
+    "image": "https://placehold.co/400x560/1b4a2d/86efac?text=Mushoku+Tensei"
+  },
+  {
+    "id": 13,
+    "title": "Re:Zero",
+    "episodes": 50,
+    "genre": "Fantasy",
+    "image": "https://placehold.co/400x560/1b4a2d/86efac?text=Re:Zero"
+  },
+  {
+    "id": 14,
+    "title": "Steins;Gate",
+    "episodes": 24,
+    "genre": "Sci-Fi",
+    "image": "https://placehold.co/400x560/0d4a4a/67e8f9?text=Steins;Gate"
+  },
+  {
+    "id": 15,
+    "title": "Psycho-Pass",
+    "episodes": 41,
+    "genre": "Sci-Fi",
+    "image": "https://placehold.co/400x560/0d4a4a/67e8f9?text=Psycho-Pass"
+  },
+  {
+    "id": 16,
+    "title": "Cowboy Bebop",
+    "episodes": 26,
+    "genre": "Sci-Fi",
+    "image": "https://placehold.co/400x560/0d4a4a/67e8f9?text=Cowboy+Bebop"
+  },
+  {
+    "id": 17,
+    "title": "March Comes in Like a Lion",
+    "episodes": 44,
+    "genre": "Slice of Life",
+    "image": "https://placehold.co/400x560/4a3b1b/fcd34d?text=March+Comes+in+Like+a+Lion"
+  },
+  {
+    "id": 18,
+    "title": "Violet Evergarden",
+    "episodes": 13,
+    "genre": "Slice of Life",
+    "image": "https://placehold.co/400x560/4a3b1b/fcd34d?text=Violet+Evergarden"
+  },
+  {
+    "id": 19,
+    "title": "Bocchi the Rock!",
+    "episodes": 12,
+    "genre": "Slice of Life",
+    "image": "https://placehold.co/400x560/4a3b1b/fcd34d?text=Bocchi+the+Rock!"
+  },
+  {
+    "id": 20,
+    "title": "Chainsaw Man",
+    "episodes": 12,
+    "genre": "Action",
+    "image": "https://placehold.co/400x560/2d1b69/e879f9?text=Chainsaw+Man"
+  }
+]
