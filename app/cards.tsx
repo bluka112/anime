@@ -1,9 +1,13 @@
+import Link from "next/link";
 import { Anime } from "./page";
 
 /* eslint-disable @next/next/no-img-element */
 export const Cards = ({ anime }: { anime: Anime }) => {
   return (
-    <div className="group rounded-2xl border border-purple-900/30 bg-zinc-900 shadow-sm transition-all hover:shadow-lg hover:shadow-purple-500/10 hover:-translate-y-1">
+    <Link
+      href={`/anime/${anime.id}`}
+      className="group rounded-2xl border border-purple-900/30 bg-zinc-900 shadow-sm transition-all hover:shadow-lg hover:shadow-purple-500/10 hover:-translate-y-1"
+    >
       <div className="relative overflow-hidden rounded-t-2xl bg-zinc-800">
         <img
           src={anime.image}
@@ -22,6 +26,6 @@ export const Cards = ({ anime }: { anime: Anime }) => {
           {anime.episodes} episodes
         </p>
       </div>
-    </div>
+    </Link>
   );
 };
