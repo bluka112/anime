@@ -1,37 +1,43 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import Link from "next/link";
-import { notFound, useParams } from "next/navigation";
-import data from "@/data/anime.json";
 import { Footer } from "../../footer";
 import { Header } from "../../header";
-import type { Anime } from "../../page";
 
-// TODO 1: Read the dynamic segment with `useParams`
-// useParams<{ id: string }>() returns the route params on the client.
+// =====================================================================
+// EXERCISE — Anime detail page
+// Everything below renders static mock markup for ONE hardcoded anime.
+// Your job is to read the `:id` from the route and find the real entry.
+// =====================================================================
+
+// TODO 1: Read the dynamic segment
+// import { useParams } from "next/navigation";
 // const { id } = useParams<{ id: string }>();
 
-// TODO 2: Find the anime in the JSON data
-// const anime = data.find((a) => a.id === Number(id));
+// TODO 2: Get the anime list from the shared store
+// import { useAnimes } from "@/lib/anime-store";
+// const animes = useAnimes();
 
-// TODO 3: Handle the not-found case
-// If `anime` is undefined, call notFound() from "next/navigation".
-// Returning null after it helps TypeScript narrow the type below.
+// TODO 3: Find the anime by id
+// const anime = animes.find((a) => a.id === Number(id));
 
-// TODO 4: Render the page
-// Reuse <Header /> and <Footer /> from the index page to match the layout.
-// Skip <Nav /> — genre filtering has no meaning on a detail view.
+// TODO 4: Handle the not-found case
+// import { notFound } from "next/navigation";
+// if (!anime) { notFound(); return null; }
+
+// TODO 5: Replace the hardcoded `anime` below with the one you just found
+//         so the page reflects the actual URL (/anime/1, /anime/2, ...).
+
+// =====================================================================
 
 export default function AnimeDetailPage() {
-  const { id } = useParams<{ id: string }>();
-  const anime: Anime | undefined = (data as Anime[]).find(
-    (a) => a.id === Number(id),
-  );
-
-  if (!anime) {
-    notFound();
-    return null;
-  }
+  const anime = {
+    id: 1,
+    title: "Attack on Titan",
+    genre: "Action",
+    episodes: 87,
+    image: "https://placehold.co/400x560/2d1b69/e879f9?text=Attack+on+Titan",
+  };
 
   return (
     <div className="min-h-screen bg-zinc-950">

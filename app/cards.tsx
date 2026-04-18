@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Anime } from "./page";
+import { Anime } from "@/lib/anime-store";
 
 /* eslint-disable @next/next/no-img-element */
 export const Cards = ({ anime }: { anime: Anime }) => {
